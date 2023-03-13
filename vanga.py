@@ -42,4 +42,4 @@ elif name == "":
 else:
   print(name + " asks: " + question)
 
-print("Babka Gadalka answer: " + answer)
+print("Vanga answer: " + answer)
