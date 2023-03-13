@@ -40,7 +40,7 @@ if name == "" and question == "":
 elif question == "":
   print("Please write your question!")
 elif name == "":
-  print("Question: " + question)
+  print("Anonim: " + question)
   print("Vanga answer: " + answer)
 else:
   print(name + " asks: " + question)
