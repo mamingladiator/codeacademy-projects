@@ -2,11 +2,11 @@ import random
 random_number = random.randint(1,12)
 
 name = "Maxim Kashyn"
-question = "Will I fuck chick today?"
+question = "Will I fuck with chick today?"
 answer = ""
 
-print(random_number)
-print("")
+# print(random_number)
+# print("")
 
 if random_number == 1:
   answer = "Yes - definitely"
@@ -35,11 +35,13 @@ elif random_number == 12:
 else:
   answer = "Error..."
 
-if question == "":
+if name == "" and question == "":
+  print("Please, write your name and question!")
+elif question == "":
   print("Please write your question!")
 elif name == "":
   print("Question: " + question)
+  print("Vanga answer: " + answer)
 else:
   print(name + " asks: " + question)
-
-print("Vanga answer: " + answer)
+  print("Vanga answer: " + answer)
