@@ -7,3 +7,6 @@ print ("A   A  MM MM")
 print ("AAAAA  M M M")
 print ("A   A  M   M")
 print ("A   A  M   M")
+
+
+
